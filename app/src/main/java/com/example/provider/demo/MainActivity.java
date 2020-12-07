@@ -13,8 +13,6 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.provider.demo.provider.StudentsProvider;
-
 public class MainActivity extends AppCompatActivity {
     private static final int MY_PERMISSIONS_REQUEST_READ_CONTACTS = 100;
 
@@ -54,12 +52,12 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-//    public static class StudentsProvider {
-//        static final String PROVIDER_NAME = "com.example.MyApplication.StudentsProvider";
-//        static final String URL = "content://" + PROVIDER_NAME + "/students";
-//        static final Uri CONTENT_URI = Uri.parse(URL);
-//        static final String _ID = "_id";
-//        static final String NAME = "name";
-//        static final String GRADE = "grade";
-//    }
+    public static class StudentsProvider {
+        static final String PROVIDER_NAME = "com.example.MyApplication.StudentsProvider";
+        static final String URL = "content://" + PROVIDER_NAME + "/students";
+        static final Uri CONTENT_URI = Uri.parse(URL);
+        static final String _ID = "_id";
+        static final String NAME = "name";
+        static final String GRADE = "grade";
+    }
 }
