@@ -53,13 +53,4 @@ public class MainActivity extends AppCompatActivity {
             } while (c.moveToNext());
         }
     }
-
-//    public static class StudentsProvider {
-//        static final String PROVIDER_NAME = "com.example.MyApplication.StudentsProvider";
-//        static final String URL = "content://" + PROVIDER_NAME + "/students";
-//        static final Uri CONTENT_URI = Uri.parse(URL);
-//        static final String _ID = "_id";
-//        static final String NAME = "name";
-//        static final String GRADE = "grade";
-//    }
 }
